@@ -18,17 +18,17 @@ public class DesafioWhile
 	    opcao = scan.next();
 	    
 	    switch(opcao){
-	      case "a": //consulta saldo
+	      case "a":
 	        System.out.println("Seu saldo é " + saldo);
 	        break;
 	        
-	      case "b": // saque
+	      case "b": 
 	        System.out.println("Quanto você quer sacar?");
 	        saque = scan.nextDouble();
 	        saldo = saldo - saque;
 	        break;
 	        
-	      case "c": // deposito
+	      case "c": 
 	        System.out.println("Quanto você quer depositar? ");
 	        deposito = scan.nextDouble();
 	        saldo = saldo + deposito;
@@ -44,8 +44,8 @@ public class DesafioWhile
 	    
 	    saque = 0;
 	    deposito = 0;
-	  } while(!opcao.equals("d"));
+	
+	 } while(!opcao.equals("d"));
+	  scan.close();
 	}
 }
-
-

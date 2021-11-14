@@ -23,6 +23,6 @@ public class While3
             }
 
         System.out.println(soma);
-        
+        scan.close();
     }
 }

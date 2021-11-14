@@ -12,6 +12,8 @@ public class While4
       numero = scan.nextDouble();
 
     } while(numero >= 0);
+
+    scan.close();
         }
     
 }
